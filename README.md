@@ -2,7 +2,7 @@
 
 Benchmark suite comparing 11 Python backends for quantum state-vector simulation on Apple Silicon (M4 Pro, 48 GB unified memory). Accompanies the paper:
 
-> **"DRAM Cliff: Memory-Bandwidth Bottlenecks in Quantum State-Vector Simulation on Unified Memory Architecture"**  
+> **"A Controlled Study of Memory Hierarchy Transitions in Quantum State-Vector Simulation on Unified Memory Architecture"**  
 > Gyan Pratipat — ASU
 
 ---
