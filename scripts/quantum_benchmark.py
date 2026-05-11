@@ -1,6 +1,6 @@
 """
 Quantum Simulation Memory Wall — Multi-Trial Benchmark Suite
-Author: Gyan Pratipat (ASU / C-DAC Patna)
+Author: Anon Capybara
 Purpose: Paper-ready statistical benchmarking of quantum circuit simulation
          approaches from a Computer Architecture and Memory Systems perspective
 
@@ -233,7 +233,7 @@ def brute_force_ghz(n):
     """
     Naive full Kronecker expansion.
     Memory: O(4^n) — builds 2^n × 2^n gate matrix.
-    This is what Gyan's original 2022 code did.
+    This is what author's original 2022 code did.
     """
     state = np.zeros(2**n, dtype=np.complex64)
     state[0] = 1.0
@@ -327,7 +327,7 @@ def pykronecker_ghz(n):
     Lazy Kronecker via pykronecker library.
     Never materialises the full 2^n × 2^n matrix.
     Memory: O(2^n) state vector + small overhead per gate.
-    This is what Gyan's V3 used before JAX.
+    This is what author's V3 used before JAX.
     """
     try:
         from pykronecker import KroneckerProduct as kp
