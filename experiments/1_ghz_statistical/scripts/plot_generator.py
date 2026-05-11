@@ -603,7 +603,7 @@ def fig_evolution_timeline():
         ax.text(x, -0.4, year, ha='center', fontsize=8, color='grey')
     
     ax.set_title('Simulator Evolution: From Single-Qubit Sketch to Research Platform\n'
-                 '2023–2025 | C-DAC Patna → ASU M4 Pro', fontsize=13, pad=20)
+                 '2023–2025', fontsize=13, pad=20)
     
     fig.tight_layout()
     save(fig, "fig9_evolution_timeline")
