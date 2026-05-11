@@ -146,15 +146,7 @@ python3 scripts/verify_direct_index.py
 
 ## Citation
 
-```bibtex
-@misc{qsimuma2026,
-  author       = {Pratipat, Gyan},
-  title        = {{qsim-uma}: Quantum Circuit Simulation Benchmarks on Unified Memory Architecture},
-  year         = {2026},
-  howpublished = {GitHub},
-  url          = {https://github.com/gyanpratipat/qsim-uma}
-}
-```
+
 
 ---
 
